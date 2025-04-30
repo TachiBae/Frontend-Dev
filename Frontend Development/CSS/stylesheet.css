@@ -1,12 +1,17 @@
-body {
-    border: 0px;
+div {
+    background-color: lightcoral;
+    font-size: 35px;
+    font-family: Impact;
+    width: 100px;
+    height: 100px;
+    display: none;
 }
 
-.box {
-    border: 4px solid;
-    margin: auto;
-    width: 250px;
-    height: 250px;
-    font-size: 5em;
-    margin-top: 50px;
-}
+span{
+    background-color: lightblue;
+    font-size: 35px;
+    font-family: Impact;
+    width: 100px;
+    height: 100px;
+    display: none;
+}  
