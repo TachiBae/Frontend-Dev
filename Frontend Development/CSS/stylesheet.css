@@ -1,17 +1,17 @@
-div {
-    background-color: lightcoral;
-    font-size: 35px;
-    font-family: Impact;
-    width: 100px;
-    height: 100px;
-    display: none;
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
 }
 
-span{
-    background-color: lightblue;
-    font-size: 35px;
-    font-family: Impact;
-    width: 100px;
-    height: 100px;
-    display: none;
-}  
+p::first-line {
+    background-color: rgb(255, 255, 116);
+}
+
+p::selection {
+    color: rgb(13, 255, 0);
+    background-color: #50504f;
+}
+
+#fruit li::before {
+    content: "😝";
+}
