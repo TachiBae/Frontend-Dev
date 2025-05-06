@@ -1,17 +1,55 @@
-h1::first-letter {
-    font-size: 2em;
-    font-style: italic;
+*{
+    box-sizing: border-box;
 }
 
-p::first-line {
-    background-color: rgb(255, 255, 116);
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
 }
 
-p::selection {
-    color: rgb(13, 255, 0);
-    background-color: #50504f;
+.navbar {
+    background-color: black;
+    height: 50px;
 }
 
-#fruit li::before {
-    content: "😝";
+body {
+    margin: 0px;
 }
+
+
+
+/* ------ Main ------ */
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+
+/* ------ Footer ------ */
+
+footer {
+    display: block;
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+
